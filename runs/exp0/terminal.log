@@ -1,0 +1,528 @@
+Logging stdout to ./runs/exp0/terminal.log
+Initializing AlfredTWEnv...
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070419_171501/game.tw-pddl
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_112937_058752/game.tw-pddl
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053743_317534/game.tw-pddl
+Overall we have 3550 games in split=train
+Training with 3550 games
+Logging stdout to ./runs/exp0/terminal.log
+Initializing AlfredTWEnv...
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070419_171501/game.tw-pddl
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_112937_058752/game.tw-pddl
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053743_317534/game.tw-pddl
+Overall we have 3550 games in split=train
+Training with 3550 games
+LLM patch model: gpt-5
+Executable memory: runs/exp0
+Action selection: mem.propose_action() → heuristics.rank_actions
+Patch when: failure
+Data split: train (train_eval=train)
+
+=== Episode 1 ===
+Task: clean some mug and put it in coffeemachine.
+Step: 1
+Subgoal: (none)
+Location: (unknown)
+Inventory: (empty)
+Uncertainties:
+  - Container 'cabinet 9' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 8' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 7' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 6' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 5' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 4' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 3' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 2' (cabinet) not searched; contents unknown.
+  [1] OK | look
+  [2] OK | go to cabinet 1
+  [3] OK | go to cabinet 2
+  [4] OK | go to cabinet 3
+  [5] OK | go to cabinet 4
+  [6] OK | go to cabinet 5
+  [7] OK | go to cabinet 6
+  [8] OK | go to cabinet 7
+  [9] OK | go to cabinet 8
+  [10] OK | go to cabinet 9
+  [11] OK | go to coffeemachine 1
+  [12] OK | go to countertop 1
+  [13] OK | go to countertop 2
+  [14] OK | go to countertop 3
+  [15] OK | go to drawer 1
+  [16] OK | go to drawer 2
+  [17] OK | go to drawer 3
+  [18] OK | go to drawer 4
+  [19] OK | go to drawer 6
+  [20] OK | go to drawer 5
+  [21] OK | go to drawer 7
+  [22] OK | go to drawer 8
+  [23] OK | go to drawer 9
+  [24] OK | go to fridge 1
+  [25] OK | go to garbagecan 1
+  [26] OK | go to microwave 1
+  [27] OK | go to shelf 1
+  [28] OK | go to shelf 2
+  [29] OK | go to shelf 3
+  [30] OK | go to sinkbasin 1
+  [31] OK | go to stoveburner 1
+  [32] OK | go to stoveburner 3
+  [33] OK | go to stoveburner 2
+  [34] OK | go to stoveburner 4
+  [35] OK | go to toaster 1
+  [36] OK | look
+  [37] OK | look
+  [38] OK | look
+  [39] OK | look
+  [40] OK | look
+  [41] OK | look
+  [42] OK | look
+  [43] OK | look
+  [44] OK | look
+  [45] OK | look
+  [46] OK | look
+  [47] OK | look
+  [48] OK | look
+  [49] OK | look
+  [50] OK | look
+Episode 1: won=False steps=50 patches=0
+
+Win rate: 0/1
+Logging stdout to ./runs/exp0/terminal.log
+Initializing AlfredTWEnv...
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070419_171501/game.tw-pddl
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_112937_058752/game.tw-pddl
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053743_317534/game.tw-pddl
+Overall we have 3550 games in split=train
+Training with 3550 games
+LLM patch model: gpt-5
+Executable memory: runs/exp1
+Action selection: mem.propose_action() → heuristics.rank_actions
+Patch when: step
+Data split: train (train_eval=train)
+
+=== Episode 1 ===
+Task: clean some mug and put it in coffeemachine.
+Step: 1
+Subgoal: (none)
+Location: (unknown)
+Inventory: (empty)
+Uncertainties:
+  - Container 'cabinet 9' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 8' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 7' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 6' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 5' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 4' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 3' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 2' (cabinet) not searched; contents unknown.
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+})
+  [1] OK | look
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+})
+  [2] OK | go to cabinet 1
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+})
+  [3] OK | go to cabinet 2
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+})
+  [4] OK | go to cabinet 3
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+})
+  [5] OK | go to cabinet 4
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+})
+  [6] OK | go to cabinet 5
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+})
+  [7] OK | go to cabinet 6
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+})
+  [8] OK | go to cabinet 7
+Logging stdout to ./runs/exp0/terminal.log
+Initializing AlfredTWEnv...
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070419_171501/game.tw-pddl
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_112937_058752/game.tw-pddl
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053743_317534/game.tw-pddl
+Overall we have 3550 games in split=train
+Training with 3550 games
+LLM patch model: gpt-5
+Executable memory: runs/exp1
+Action selection: mem.propose_action() → heuristics.rank_actions
+Patch when: step
+Data split: train (train_eval=train)
+
+=== Episode 1 ===
+Task: clean some mug and put it in coffeemachine.
+Step: 1
+Subgoal: (none)
+Location: (unknown)
+Inventory: (empty)
+Uncertainties:
+  - Container 'cabinet 9' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 8' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 7' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 6' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 5' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 4' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 3' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 2' (cabinet) not searched; contents unknown.
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+})
+  [1] OK | look
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+})
+  [2] OK | go to cabinet 1
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+})
+  [3] OK | go to cabinet 2
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+})
+  [4] OK | go to cabinet 3
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+})
+  [5] OK | go to cabinet 4
+Logging stdout to ./runs/exp0/terminal.log
+Initializing AlfredTWEnv...
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070419_171501/game.tw-pddl
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_112937_058752/game.tw-pddl
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053743_317534/game.tw-pddl
+Overall we have 3550 games in split=train
+Training with 3550 games
+LLM patch model: gpt-5
+Executable memory: runs/exp1
+Action selection: mem.propose_action() → heuristics.rank_actions
+Patch when: failure
+Data split: train (train_eval=train)
+
+=== Episode 1 ===
+Task: clean some mug and put it in coffeemachine.
+Step: 1
+Subgoal: (none)
+Location: (unknown)
+Inventory: (empty)
+Uncertainties:
+  - Container 'cabinet 9' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 8' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 7' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 6' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 5' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 4' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 3' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 2' (cabinet) not searched; contents unknown.
+  [1] OK | look
+  [2] OK | go to cabinet 1
+  [3] OK | go to cabinet 2
+  [4] OK | go to cabinet 3
+  [5] OK | go to cabinet 4
+  [6] OK | go to cabinet 5
+  [7] OK | go to cabinet 6
+  [8] OK | go to cabinet 7
+  [9] OK | go to cabinet 8
+  [10] OK | go to cabinet 9
+  [11] OK | go to coffeemachine 1
+  [12] OK | go to countertop 1
+  [13] OK | go to countertop 2
+  [14] OK | go to countertop 3
+  [15] OK | go to drawer 1
+  [16] OK | go to drawer 2
+  [17] OK | go to drawer 3
+  [18] OK | go to drawer 4
+  [19] OK | go to drawer 6
+  [20] OK | go to drawer 5
+  [21] OK | go to drawer 7
+  [22] OK | go to drawer 8
+  [23] OK | go to drawer 9
+  [24] OK | go to fridge 1
+  [25] OK | go to garbagecan 1
+  [26] OK | go to microwave 1
+  [27] OK | go to shelf 1
+  [28] OK | go to shelf 2
+  [29] OK | go to shelf 3
+  [30] OK | go to sinkbasin 1
+  [31] OK | go to stoveburner 1
+  [32] OK | go to stoveburner 3
+  [33] OK | go to stoveburner 2
+  [34] OK | go to stoveburner 4
+  [35] OK | go to toaster 1
+  [36] OK | look
+  [37] OK | look
+  [38] OK | look
+  [39] OK | look
+  [40] OK | look
+  [41] OK | look
+  [42] OK | look
+  [43] OK | look
+  [44] OK | look
+  [45] OK | look
+  [46] OK | look
+  [47] OK | look
+  [48] OK | look
+  [49] OK | look
+  [50] OK | look
+Episode 1: won=False steps=50 patches=0
+
+Win rate: 0/1
+Logging stdout to ./runs/exp0/terminal.log
+Initializing AlfredTWEnv...
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070419_171501/game.tw-pddl
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_112937_058752/game.tw-pddl
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053743_317534/game.tw-pddl
+Overall we have 3550 games in split=train
+Training with 3550 games
+LLM patch model: gpt-5
+Executable memory: runs/exp1
+Action selection: mem.propose_action() → heuristics.rank_actions
+Patch when: step
+Data split: train (train_eval=train)
+
+=== Episode 1 ===
+Task: clean some mug and put it in coffeemachine.
+Step: 1
+Subgoal: (none)
+Location: (unknown)
+Inventory: (empty)
+Uncertainties:
+  - Container 'cabinet 9' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 8' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 7' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 6' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 5' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 4' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 3' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 2' (cabinet) not searched; contents unknown.
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported value: 'temperature' does not support 0.2 with this model. Only the default (1) value is supported.",
+    "type": "invalid_request_error",
+    "param": "temperature",
+    "code": "unsupported_value"
+  }
+})
+  [1] OK | look
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported value: 'temperature' does not support 0.2 with this model. Only the default (1) value is supported.",
+    "type": "invalid_request_error",
+    "param": "temperature",
+    "code": "unsupported_value"
+  }
+})
+  [2] OK | go to cabinet 1
+  [patch] every_step -> skipped (LLM HTTP 400: {
+  "error": {
+    "message": "Unsupported value: 'temperature' does not support 0.2 with this model. Only the default (1) value is supported.",
+    "type": "invalid_request_error",
+    "param": "temperature",
+    "code": "unsupported_value"
+  }
+})
+  [3] OK | go to cabinet 2
+Logging stdout to ./runs/exp0/terminal.log
+Initializing AlfredTWEnv...
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070419_171501/game.tw-pddl
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_112937_058752/game.tw-pddl
+-> Skipping missing solvable key! /Users/qiuran/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053743_317534/game.tw-pddl
+Overall we have 3550 games in split=train
+Training with 3550 games
+LLM patch model: gpt-5
+Executable memory: runs/exp1
+Action selection: mem.propose_action() → heuristics.rank_actions
+Patch when: step
+Data split: train (train_eval=train)
+
+=== Episode 1 ===
+Task: clean some mug and put it in coffeemachine.
+Step: 1
+Subgoal: (none)
+Location: (unknown)
+Inventory: (empty)
+Uncertainties:
+  - Container 'cabinet 9' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 8' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 7' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 6' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 5' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 4' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 3' (cabinet) not searched; contents unknown.
+  - Container 'cabinet 2' (cabinet) not searched; contents unknown.
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [1] OK | look
+  [patch] every_step -> applied
+  [2] OK | go to cabinet 1
+  [patch] every_step -> applied
+  [3] OK | open cabinet 1
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [4] OK | go to countertop 1
+  [patch] every_step -> applied
+  [5] OK | go to cabinet 2
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [6] OK | open cabinet 2
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [7] OK | go to cabinet 3
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [8] OK | open cabinet 3
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [9] OK | go to cabinet 4
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [10] OK | go to cabinet 5
+  [patch] every_step -> applied
+  [11] OK | open cabinet 5
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [12] OK | go to cabinet 6
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [13] OK | open cabinet 6
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [14] OK | go to cabinet 7
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [15] OK | open cabinet 7
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [16] OK | go to cabinet 8
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [17] OK | open cabinet 8
+  [patch] every_step -> applied
+  [18] OK | go to fridge 1
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [19] OK | open fridge 1
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [20] OK | go to garbagecan 1
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [21] OK | go to microwave 1
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [22] OK | open microwave 1
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [23] OK | go to shelf 1
+  [patch] every_step -> applied
+  [24] OK | go to stoveburner 1
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [25] OK | go to toaster 1
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [26] OK | go to countertop 2
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [27] OK | take mug 1 from countertop 2
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [28] OK | go to coffeemachine 1
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [29] OK | go to sinkbasin 1
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [30] OK | go to shelf 2
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [31] OK | go to stoveburner 2
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [32] OK | go to countertop 3
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [33] OK | go to shelf 3
+  [patch] every_step -> skipped (The read operation timed out)
+  [34] OK | go to stoveburner 3
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [35] OK | go to cabinet 9
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [36] OK | open cabinet 9
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [37] OK | go to stoveburner 4
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [38] OK | inventory
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [39] OK | inventory
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [40] OK | inventory
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [41] OK | inventory
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [42] OK | inventory
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [43] OK | inventory
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [44] OK | inventory
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [45] OK | inventory
+  [patch] every_step -> skipped (The read operation timed out)
+  [46] OK | inventory
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [47] OK | inventory
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [48] OK | inventory
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [49] OK | inventory
+  [patch] every_step -> skipped (could not parse function_source from LLM response)
+  [50] OK | inventory
+Episode 1: won=False steps=50 patches=6
+
+Win rate: 0/1
